@@ -13,10 +13,15 @@ Clone this repository inside a new or pre-existing catkin workspace and simply r
 
 ### Running
 1. Be sure to mark the ocean_optics_specs_server.py file as executable.
-`chmod +x ocean_optics_specs_server.py`
+
+```chmod +x ocean_optics_specs_server.py```
+
 2. Now you can simply run the ROS service server (python executable) using rosrun with the package name.
-`source devel/setup.bash`
-`rosrun ocean_optics_driver ocean_optics_specs_server.py`
+
+```source devel/setup.bash```
+```rosrun ocean_optics_driver ocean_optics_specs_server.py```
+
 3. Finally, you can make a call to the ROS service as follows:
-  Run Calibration Scan:`rosservice call /ocean_optics_spec_calibration_scan`
-  Run Reflectance Scan: `rosservice call /ocean_optics_spec_reflectance_scan`
+
+  Run Calibration Scan:```rosservice call /ocean_optics_spec_calibration_scan```
+  Run Reflectance Scan: ```rosservice call /ocean_optics_spec_reflectance_scan```
