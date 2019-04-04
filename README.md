@@ -26,6 +26,6 @@ Clone this repository inside a new or pre-existing catkin workspace and simply r
 
 3. Finally, you can make a call to the ROS service as follows:
 
-    Run Calibration Scan:```rosservice call /ocean_optics_spec_calibration_scan```
+    Run Calibration Scan: ```rosservice call /ocean_optics_spec_calibration_scan```
   
     Run Reflectance Scan: ```rosservice call /ocean_optics_spec_reflectance_scan```
